@@ -1,0 +1,47 @@
+.navbar-brand{
+    font-size: 25px;
+    margin-left: 25px;
+}
+#rueda{
+    background-color: #bebebe;
+    color: #000000;
+    margin-right:30px ;
+    margin-left: 15px;
+}
+#botones{
+    background-color: #bebebe;
+}
+.navbar{
+    border-bottom: 1px solid lightgray;
+}
+.margen{
+    margin-top: 70px;
+}
+.seg-ter{
+    margin-top: 5px;
+}
+#muro{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card{
+    margin: 5px;
+    width: 600px;
+}
+.card-header{
+    padding: .75rem 15px;
+}
+.titulo{
+    display: inline-block;
+}
+.btn-link{
+    float: right;
+    color: gray;
+    padding-right: 15px;
+}
+.comentario{
+    color: #CDCCCC;
+    display: inline-block;
+    width: 88%;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">        
+    <title>Instagram Photo Feed</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <span class="navbar-brand mb-0 ml-5 h1"><i class="fab fa-instagram"></i> Instagram</span>
+        <form class="form-inline">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Create a New Post
+              </button>
+              <div class="btn-group">
+                <button type="button" class="btn btn-light dropdown-toggle" id="rueda"data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+              </div>
+        </form>
+    </nav>
+    <nav aria-label="Page navigation example" class="margen">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link text-secondary" href="index.html">
+                <i class="fas fa-th"></i></a>
+            </li>
+            <li class="page-item"><a class="page-link text-secondary" href="feed.html">■</a></li>
+        </ul>
+    </nav>
+    <div class="card" id="muro">
+        <div class="card-header">
+            <h4 class="titulo">Paisaje</h4>
+            <button type="button" class="btn btn-link" disabled>12/14</button>
+        </div>
+        <img src="https://picsum.photos/id/323/400/300" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">231 Likes</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="far fa-heart"></i>
+            </button>
+            <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </div>
+    </div>
+    <div class="card" id="muro">
+        <div class="card-header">
+            <h4 class="titulo">Paris</h4>
+            <button type="button" class="btn btn-link" disabled>03/15</button>
+        </div>
+        <img src="https://picsum.photos/id/234/400/300" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">201 Likes</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="far fa-heart"></i>
+            </button>
+            <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </div>
+    </div>
+    <div class="card" id="muro">
+            <div class="card-header">
+                <h4 class="titulo">Muelle</h4>
+                <button type="button" class="btn btn-link" disabled >05/15</button>
+            </div>
+            <img src="https://picsum.photos/id/293/400/300" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">135 Likes</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="far fa-heart"></i>
+                </button>
+                <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+            </div>
+        </div>
+        <div class="card" id="muro">
+            <div class="card-header">
+                <h4 class="titulo">Borroso</h4>
+                <button type="button" class="btn btn-link" disabled>12/15</button>
+            </div>
+            <img src="https://picsum.photos/id/223/400/300" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">30 Likes</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit ornare, interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="far fa-heart"></i>
+                </button>
+                <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+                <button type="button" class="btn btn-light btn-sm">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+            </div>
+        </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <h6>Caption:</h6>
+                    <textarea class="form-control" id="message-text">Add the caption of your post here</textarea>
+                </div>
+                <button type="button" class="btn btn-light btn-sm" id="botones">
+                    <i class="fas fa-camera"></i>
+                </button>
+                <button type="button" class="btn btn-light btn-sm" id="botones">
+                    <i class="fas fa-map-marker-alt"></i>
+                </button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success" >Publish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
